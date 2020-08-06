@@ -132,11 +132,11 @@ MongoClient.connect(db, (err, db) => {
     // Template system setup
     swig.setDefaults({
         // Autoescape disabled
-        autoescape: false
-        /*
+       // autoescape: false
+
         // Fix for A3 - XSS, enable auto escaping
         autoescape: true // default value
-        */
+
     });
 
     // Insecure HTTP connection
