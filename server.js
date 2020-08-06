@@ -89,7 +89,7 @@ MongoClient.connect(db, (err, db) => {
         key: "sessionId",
         */
 
-        /*
+
         // Fix for A3 - XSS
         // TODO: Add "maxAge"
         cookie: {
@@ -97,7 +97,7 @@ MongoClient.connect(db, (err, db) => {
             // Remember to start an HTTPS server to get this working
             // secure: true
         }
-        */
+
 
     }));
 
