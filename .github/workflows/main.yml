@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: anchore/sbom-action@v0
       with:
-        path: ./app
+        path: ./app/
         dependency-snapshot: true
     
     - uses: anchore/sbom-action/publish-sbom@v0
